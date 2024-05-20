@@ -1,0 +1,102 @@
+{
+  "inputs": [
+    {
+      "name": "certificatehash",
+      "public": true,
+      "type": "field"
+    },
+    {
+      "name": "certificatehash1",
+      "public": true,
+      "type": "field"
+    },
+    {
+      "name": "certificatehash2",
+      "public": true,
+      "type": "field"
+    },
+    {
+      "name": "certificatehash3",
+      "public": true,
+      "type": "field"
+    },
+    {
+      "name": "myaddress",
+      "public": false,
+      "type": "field"
+    },
+    {
+      "name": "myage",
+      "public": false,
+      "type": "field"
+    },
+    {
+      "name": "mydegree",
+      "public": false,
+      "type": "field"
+    },
+    {
+      "name": "aadharNumber",
+      "public": false,
+      "type": "field"
+    },
+    {
+      "name": "mypercentage",
+      "public": false,
+      "type": "field"
+    },
+    {
+      "name": "myfamilyincome",
+      "public": false,
+      "type": "field"
+    },
+    {
+      "name": "mycaste",
+      "public": false,
+      "type": "field"
+    },
+    {
+      "name": "mynationality",
+      "public": false,
+      "type": "field"
+    },
+    {
+      "name": "degree",
+      "public": true,
+      "type": "field"
+    },
+    {
+      "name": "caste",
+      "public": true,
+      "type": "field"
+    },
+    {
+      "name": "nationality",
+      "public": true,
+      "type": "field"
+    },
+    {
+      "name": "minimum_percentage",
+      "public": true,
+      "type": "field"
+    },
+    {
+      "name": "maximum_age",
+      "public": true,
+      "type": "field"
+    },
+    {
+      "name": "minimum_age",
+      "public": true,
+      "type": "field"
+    },
+    {
+      "name": "maximum_familyincome",
+      "public": true,
+      "type": "field"
+    }
+  ],
+  "output": {
+    "type": "bool"
+  }
+}
