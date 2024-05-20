@@ -1,0 +1,9 @@
+Compiling Zokrates:
+
+C:\Users\anany> zokrates compile -i C:\Users\anany\Downloads\hash_zokrates\hash.zok --stdlib-path C:\Users\anany\zokrates\zokrates_stdlib\stdlib
+
+eligibility criteria format:
+
+percentage>=:99,age>=:7,degree=:btech,caste=:sc,nationality=:indian,familyIncome<=:458687
+
+
