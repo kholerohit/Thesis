@@ -1,0 +1,130 @@
+/* Scholarship Provider Dashboard styles */
+
+.dashboard-container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .add-scholarship {
+    margin-bottom: 20px;
+  }
+  
+  .add-scholarship h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .input-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .input-row label {
+    width: 150px;
+    margin-right: 10px;
+  }
+  
+  .input-row input,
+  .input-row textarea {
+    flex: 1;
+    padding: 8px;
+    font-size: 1rem;
+  }
+  
+  .button {
+    padding: 8px 16px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .loading-message {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+
+  .student-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .student-item {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .student-item p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  .student-item button {
+    padding: 6px 12px;
+    font-size: 0.9rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .student-item button:hover {
+    background-color: #0056b3;
+  }
+
+/* Styling for section links */
+.section-link {
+  text-decoration: none;
+  color: inherit; /* Inherit color from parent */
+}
+
+.section-link:hover {
+  text-decoration: underline; /* Underline on hover */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Styling for sections */
+.section {
+  background-color: #f5f5f5; /* Light gray background */
+  border: 1px solid #ddd; /* Light gray border */
+  padding: 20px; /* Add padding */
+  margin-bottom: 20px; /* Add margin bottom */
+}
+
+.section h2 {
+  margin-top: 0; /* Remove default top margin for heading */
+  margin-bottom: 10px; /* Add margin below heading */
+}
+
+.available-scholarship-amount {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.available-scholarship-amount p {
+  margin: 0 0 5px;
+}
+
+.amount-box {
+  padding: 10px 20px;
+  background-color:whitesmoke;
+  color:black;
+  border-radius: 5px;
+  display: inline-block;
+  width:100px;
+  height:15px;
+  margin: auto;
+}

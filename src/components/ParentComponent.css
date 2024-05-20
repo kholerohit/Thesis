@@ -1,0 +1,27 @@
+/* ParentComponent.css */
+
+.parent-component {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .student-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .student-item {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .student-name {
+    font-weight: bold;
+  }
+  
+  .student-details {
+    margin-top: 5px;
+  }
+  

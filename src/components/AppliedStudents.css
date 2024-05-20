@@ -1,0 +1,77 @@
+/* AppliedStudents.css */
+
+.students-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.student-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width:200px;
+    transition: box-shadow 0.3s ease;
+    padding:40px;
+}
+
+.student-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.student-card p {
+    margin: 5px 0;
+}
+
+.student-card .button-row {
+    display: flex;
+    justify-content: space-between; /* Distribute buttons evenly */
+}
+
+.student-card button {
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 40%; /* Adjust width to fit two buttons in a row */
+}
+
+.accept-button {
+    background-color: green;
+    color: white;
+}
+
+.reject-button {
+    background-color: red;
+    color: white;
+}
+
+.status-box {
+    background-color: #f0f0f0; /* Light gray background color */
+    color: #333; /* Dark text color */
+    padding: 15px; /* Padding around the content */
+    margin-top: 10px; /* Spacing above the status box */
+    border-radius: 5px; /* Rounded corners */
+}
+
+
+.student-card button:hover {
+    background-color: #45a049;
+}
+
+  .students-list p {
+    margin-bottom: 10px;
+  }
+  
+  .link {
+    display: block;
+    margin-top: 20px;
+    color: blue;
+    text-decoration: underline;
+  }
+  

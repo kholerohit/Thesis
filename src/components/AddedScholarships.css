@@ -1,0 +1,42 @@
+/* AddedScholarships.css */
+
+.container {
+    width:100%;
+}
+.scholarships-list {
+    margin-top: 20px;
+    display: flex;
+}
+.scholarships-list > div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.scholarships-list > div p {
+    margin: 5px 0;
+}
+
+.loading-message {
+    margin-top: 20px;
+    font-style: italic;
+    color: #888;
+}
+.student-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 350px;
+    transition: box-shadow 0.3s ease;
+    padding: 40px;
+}
+
+.student-box:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.student-box p {
+    margin: 5px 0;
+}

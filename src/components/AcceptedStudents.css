@@ -1,0 +1,38 @@
+/* AcceptedStudents.css */
+.accepted-students-container {
+    margin-top: 20px;
+}
+
+.accepted-students-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.student-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width:350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.student-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+button {
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width:fit-content; /* Adjust width to fit two buttons in a row */
+}

@@ -1,0 +1,54 @@
+/* CertificateAuthority.css */
+
+.CertificateAuthority {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .CertificateAuthority h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .PendingRequests {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .PendingRequests h2 {
+    margin-top: 0;
+  }
+  
+  .PendingRequests ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .PendingRequests li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .PendingRequests li:last-child {
+    border-bottom: none;
+  }
+  
+  .PendingRequests button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .PendingRequests button:hover {
+    background-color: #45a049;
+  }
+  

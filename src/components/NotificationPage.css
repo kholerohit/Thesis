@@ -1,0 +1,15 @@
+.notification-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.scholarship-details {
+    margin-bottom: 20px;
+}
+
+.divider {
+    border-top: 1px solid #ccc;
+}

@@ -1,0 +1,24 @@
+/* src/components/StudentDashboard.css */
+
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .scholarship-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .scholarship-item {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .loading-message {
+    font-style: italic;
+    color: #888;
+  }
+  
