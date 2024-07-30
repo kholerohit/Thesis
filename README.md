@@ -11,7 +11,7 @@ Before you begin, ensure you have met the following requirements:
 - **Truffle** installed globally: `npm install -g truffle`
 - **Ganache** installed: [Ganache Download](https://www.trufflesuite.com/ganache)
 - **IPFS (Kubo)** installed: [Kubo Download](https://github.com/ipfs/kubo)
-- 
+  
 ## Getting Started
 
 ### Step 1: Clone the Repository
