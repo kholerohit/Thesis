@@ -129,7 +129,7 @@ There are three roles in the system: Scholarship Provider, Student and Certifica
    ![export verifier](https://github.com/user-attachments/assets/7794ff3c-84e5-4eeb-9523-3db8bdb77573)
 
 ### 4. Zokrates compile witness
-   Inputs received by Zokrates 
+   #### Inputs received by Zokrates 
 ![input received by zokrates](https://github.com/user-attachments/assets/a6042255-729d-4cb6-be59-4e5e07e97483)
 
 ### 5. Proof generated
@@ -150,7 +150,7 @@ There are three roles in the system: Scholarship Provider, Student and Certifica
 ## Application Verification
 ![Validate Application](https://github.com/user-attachments/assets/24177e27-0aa6-4672-b6b5-26de1bf712cc)
 
-#3 Remaining Fund Updation
+## Remaining Fund Updation
 ![Fund remaining](https://github.com/user-attachments/assets/3d84f17f-89b3-4efc-9280-f76dcd15afe9)
 
 
