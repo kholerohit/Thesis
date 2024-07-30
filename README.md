@@ -18,8 +18,8 @@ Before you begin, ensure you have met the following requirements:
 
 Clone the project repository to your local machine:
 
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone [https://github.com/your-username/your-repo-name.git](https://github.com/ananya8606/PP_SMS.git)
+cd PP_SMS
 
 ### Step 2: Install Dependencies
 Navigate to the project directory and install the necessary dependencies:
