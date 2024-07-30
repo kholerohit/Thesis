@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+#Scholarship Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a Scholarship managment system based on Blockchain running on a local Ethereum network using Ganache. I implemented zero knowledge proof
+ (zk-SNARK) based verification of credentials of the scholarship applicants using Zokrates for ensuring privacy of applicant credentials.
 
-## Available Scripts
+## Prerequisites
 
-In the project directory, you can run:
+Before you begin, ensure you have met the following requirements:
 
-### `npm start`
+- **Node.js** and **npm** installed: [Node.js Download](https://nodejs.org/)
+- **Truffle** installed globally: `npm install -g truffle`
+- **Ganache** installed: [Ganache Download](https://www.trufflesuite.com/ganache)
+- **IPFS (Kubo)** installed: [Kubo Download](https://github.com/ipfs/kubo)
+- 
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Step 1: Clone the Repository
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Clone the project repository to your local machine:
 
-### `npm test`
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Step 2: Install Dependencies
+Navigate to the project directory and install the necessary dependencies:
 
-### `npm run build`
+npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+###Step 3: Start Ganache
+Start Ganache to create a local Ethereum blockchain:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Open Ganache GUI.
+Click on QUICKSTART to create a new workspace.
+Alternatively, you can start Ganache CLI by running:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ganache-cli
 
-### `npm run eject`
+###Step 4: Configure Truffle
+Update the truffle-config.js file to connect to your local Ganache instance. It should look something like this:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+module.exports = {
+  networks: {
+    development: {
+      host: "127.0.0.1",
+      port: 7545, // Port where Ganache is running
+      network_id: "*", // Match any network id
+    },
+  },
+  // Other configuration settings...
+};
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+###Step 5: Compile Contracts
+Compile the smart contracts using Truffle:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+truffle compile
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+###Step 6: Deploy Contracts
+Deploy the compiled contracts to the local Ganache blockchain:
 
-## Learn More
+truffle migrate
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+###Step 7: Run Tests
+Run the tests to ensure everything is working correctly:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+truffle test
 
-### Code Splitting
+###Step 8: Install and Set Up Kubo (IPFS)
+Install Kubo
+Download and install Kubo (IPFS implementation) from the official GitHub repository:
+[Kubo Download](https://github.com/ipfs/kubo)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+For example, on macOS you can use Homebrew:
 
-### Analyzing the Bundle Size
+brew install ipfs
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+On Linux, you can download the binary from the releases page and follow the installation instructions provided there.
 
-### Making a Progressive Web App
+##Initialize IPFS
+After installing IPFS, initialize it:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+ipfs init
 
-### Advanced Configuration
+##Start IPFS Daemon
+Start the IPFS daemon to enable communication with the IPFS network:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+ipfs daemon
 
-### Deployment
+### For running backend , run:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+cd server
+npm start 
 
-### `npm run build` fails to minify
+There are three roles in the system: Scholarship Provider, Student and Certificate Authority.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
