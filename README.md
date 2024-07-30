@@ -1,6 +1,6 @@
 # Scholarship Management System
 
-This project is a Scholarship managment system based on Blockchain running on a local Ethereum network using Ganache. I implemented zero knowledge proof
+This project is a Scholarship management system based on Blockchain running on a local Ethereum network using Ganache. I implemented zero knowledge proof
  (zk-SNARK) based verification of credentials of the scholarship applicants using Zokrates for ensuring privacy of applicant credentials.
 
 ## Prerequisites
