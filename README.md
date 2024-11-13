@@ -34,7 +34,7 @@ Alternatively, you can start Ganache CLI by running:
 
 ganache-cli
 
-### Step 4: Configure Truffle
+### Step 4: Configure Truffle => its present in above project source code 
 Update the truffle-config.js file to connect to your local Ganache instance. It should look something like this:
 
 module.exports = {
@@ -67,6 +67,10 @@ truffle test
 Install Kubo
 Download and install Kubo (IPFS implementation) from the official GitHub repository:
 [Kubo Download](https://github.com/ipfs/kubo)
+ipfs --version
+install it and add path to environment variable in setting on windows 
+download extract and add path of .exe to environment var path like (C:\Users\HP\OneDrive\Documents\AThesis\Project\kubo_v0.31.0\kubo)
+=> [https://dist.ipfs.tech/kubo/v0.31.0/kubo_v0.31.0_windows-amd64.zip] 
 
 For example, on macOS you can use Homebrew:
 
